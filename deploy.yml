@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: cont1
-        image: rahamshaik/phonepaymovies:v1
+        image: vdbsrao/coffee:latest
         ports:
         - containerPort: 80
 
