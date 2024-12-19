@@ -19,13 +19,13 @@ spec:
         image: vdbsrao/coffee:latest
         ports:
         - containerPort: 80
-        ---------------------------
+---
 apiVersion: v1
 kind: Service
 metadata:
   name: fe
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: phonepay
   ports:
